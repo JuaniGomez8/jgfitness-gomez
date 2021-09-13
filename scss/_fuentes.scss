@@ -1,0 +1,30 @@
+$pDesktop:20px;
+$fontFamily: "tahoma";
+
+.col-lg-6{
+	p{
+	font{
+	size:$pDesktop;
+	family:$fontFamily;
+	weight:bold;
+	}
+	}
+}
+
+/*map get*/
+
+$estilos: (
+  color: #3673D9,
+  centro: center,
+  upper: uppercase,
+  tFuente: 35px,
+  1rem: 1rem,
+);
+
+.mapGet {
+	background-color: map-get($estilos, color);
+	text-align: map-get($estilos, centro);
+	padding: map-get($estilos, 1rem);
+	font-size: map-get($estilos, tFuente);
+	color: red;
+}

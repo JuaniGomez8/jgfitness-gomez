@@ -1,0 +1,85 @@
+/*variables */
+.backNav {
+  background: linear-gradient(to bottom, skyblue, yellow); }
+
+.backFoot {
+  background: linear-gradient(to bottom, skyblue, yellow); }
+
+.gradiente {
+  background: linear-gradient(to left, gray, white); }
+
+.imagen {
+  background-color: blue; }
+  .imagen__back {
+    position: relative;
+    left: 100px; }
+
+.noticia {
+  background-color: blue; }
+  .noticia__destacada {
+    font-size: 30px;
+    color: black; }
+  .noticia__destacada--color {
+    color: red; }
+
+.desventaja {
+  background: linear-gradient(to bottom, black, yellow); }
+  .desventaja__titulo {
+    font-size: 30px; }
+    .desventaja__titulo--color {
+      color: blue; }
+
+.backNav {
+  background: linear-gradient(to bottom, black, yellow); }
+
+.col-lg-6 p font {
+  size: 20px;
+  family: "tahoma";
+  weight: bold; }
+
+/*map get*/
+.mapGet {
+  background-color: #3673D9;
+  text-align: center;
+  padding: 1rem;
+  font-size: 35px;
+  color: red; }
+
+.btn, .btn--aceptar, .btn--cancelar {
+  width: 150px;
+  heigth: 50px;
+  border: 1px solid white;
+  border-radius: 50px;
+  color: black;
+  background-color: white;
+  text-align: center; }
+
+.btn--aceptar {
+  background-color: green;
+  color: white; }
+
+.btn--cancelar {
+  background-color: red;
+  color: white; }
+
+.carousel {
+  position: relative;
+  left: 400px;
+  width: 500px; }
+
+.encabezadoIndex {
+  position: relative;
+  left: 400px; }
+
+.serviciosTitulo {
+  position: relative;
+  left: 250px; }
+
+.imgServicios {
+  width: 500px; }
+
+.tituloIndex {
+  transform: skewX(10deg); }
+
+.tituloServi {
+  transform: scale(1.2); }

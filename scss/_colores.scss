@@ -1,0 +1,47 @@
+/*variables */
+$azul:blue;
+$negro:rgb(0,0,0);
+$amarillo:yellow;
+$rojo:red;
+
+
+.backNav{
+	background:linear-gradient(to bottom, skyblue, yellow);
+}
+.backFoot{
+	background:linear-gradient(to bottom, skyblue, yellow);
+}
+.gradiente{
+	background:linear-gradient(to left, gray, white);
+}
+
+.imagen{
+	background-color:$azul;
+	&__back{
+	position: relative;
+	left: 100px;
+	}
+}
+.noticia{
+	background-color:$azul;
+	&__destacada{
+	font-size: 30px;
+	color:$negro;
+	}
+	&__destacada--color{
+	  color:$rojo;
+	  }
+	
+}
+.desventaja{
+	background:linear-gradient(to bottom, black, yellow);
+	&__titulo{
+	font-size: 30px;
+	  &--color{
+	  color:$azul
+	  }
+	}
+}
+.backNav{
+	background:linear-gradient(to bottom, black, yellow);
+}
