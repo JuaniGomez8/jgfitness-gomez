@@ -4,44 +4,17 @@ $negro:rgb(0,0,0);
 $amarillo:yellow;
 $rojo:red;
 
+$primary: #8697A6;
+$black: #8697A6;
+$secondary: #8697A6;
+$gray: #8697A6;
 
-.backNav{
-	background:linear-gradient(to bottom, skyblue, yellow);
+.colorNav{
+    background-color: $primary;
 }
-.backFoot{
-	background:linear-gradient(to bottom, skyblue, yellow);
+.footer{
+    background-color: $secondary;
 }
-.gradiente{
-	background:linear-gradient(to left, gray, white);
-}
-
-.imagen{
-	background-color:$azul;
-	&__back{
-	position: relative;
-	left: 100px;
-	}
-}
-.noticia{
-	background-color:$azul;
-	&__destacada{
-	font-size: 30px;
-	color:$negro;
-	}
-	&__destacada--color{
-	  color:$rojo;
-	  }
-	
-}
-.desventaja{
-	background:linear-gradient(to bottom, black, yellow);
-	&__titulo{
-	font-size: 30px;
-	  &--color{
-	  color:$azul
-	  }
-	}
-}
-.backNav{
-	background:linear-gradient(to bottom, black, yellow);
+.backBody{
+    background-color: rosybrown;   
 }
