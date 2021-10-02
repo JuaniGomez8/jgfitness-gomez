@@ -5,5 +5,9 @@
 .footer {
   background-color: #8697A6; }
 
-.backBody {
+body {
   background-color: rosybrown; }
+
+.imgAjuste {
+  height: 300px; }
+
